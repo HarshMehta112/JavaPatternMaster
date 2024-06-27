@@ -1,8 +1,6 @@
-package org.example;
+package org.example.SingleResponsibilityPrinciple;
 
 import java.io.IOException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.SingleResponsibilityPrinciple;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
