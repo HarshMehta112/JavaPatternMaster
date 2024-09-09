@@ -43,8 +43,8 @@ public class UserPersistenceService implements PersistenceService<User>{
 	}
 
 	/**
-	 * Here this method findByName is only for User services not applicable to the order servuces.
-	 * So we can not defined in the Persistence interface because this method is only for one class if we defined
+	 * Here this method findByName is only for User services not applicable to the order services.
+	 * So we can not define in the Persistence interface because this method is only for one class if we defined
 	 * then except this all class violates the interface segregation principle.
 	 * */
 	

@@ -7,8 +7,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 //Handles incoming JSON requests that work on User resource/entity
 
 /**
+ * There should never be more than one reason for a class to change. -- Definition of Single Responsibility Principle
  * Here we can see that there is a violation of Single Responsibility Principle,
- * There should never be more than one reason for a class to change.
  * Here if we want to change validation logic then we have to change this class,
  * if we want to change the storing process of use the also we have to change this class.
  * */
