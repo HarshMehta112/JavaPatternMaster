@@ -7,6 +7,8 @@ package org.example.CreationalDesignPatterns.Builder;
  * Date: 9/9/24 12:36 PM
  */
 
+import org.example.CreationalDesignPatterns.SimpleFactory.SimpleFactory;
+
 /**
  * Ref : https://medium.com/javarevisited/builder-design-pattern-in-java-3b3bfee438d9
  * A Builder Design Pattern is a Creational Design Pattern that lets you construct complex objects step by step.
@@ -18,7 +20,7 @@ package org.example.CreationalDesignPatterns.Builder;
  * Many classes in Java use builder design patterns. For example java.lang.StringBuilder
  * and java.lang.StringBuffer has used the builder pattern for object building.
  *
- *  Steps to implemnt builder pattern::
+ *  Steps to implement builder pattern::
  * Create a static nested class as a Builder class and then copy all the fields from the outer class
  * to the Builder class. We should follow the naming convention. For example,
  * if the class name is Employee then the builder class should be named as EmployeeBuilder.
@@ -32,6 +34,9 @@ package org.example.CreationalDesignPatterns.Builder;
  * will return the object needed by the client program. For this,
  * we need to have a private constructor in the main class whose
  * object needs to be constructed with the builder class as an argument.
+ *
+ * Cons : 1. we have to defined same variables 2 times one in student class and another is in builder class.
+ *        2. build() method should handle partially initialized objects.
  * */
 
 public class Main
